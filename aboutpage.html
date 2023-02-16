@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>About</title>
+      <link id="csslink" href="style.css" rel="stylesheet">
+
+      <script>
+         function toggleCSS() {
+            // Obtains the <link> element that links to the css (by using its id).
+            var currentCSS = document.getElementById('csslink');
+  
+            // Change the value of href attribute to change the css file.
+            if (currentCSS.getAttribute('href') == 'style.css') {
+              currentCSS.setAttribute('href', 'alternate.css');
+            } else {
+              currentCSS.setAttribute('href', 'style.css');
+            }
+        }
+        </script>
+   </head>
+   <body>
+    <header>Travel Website</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="whytravel.html">Why Travel</a>
+        <a href="aboutpage.html">About</a>
+    </nav>
+    <article>
+        <h1 id="articleTitle">About</h1>
+        <p id="aboutText">Welcome to our website, <b>where we strive to inspire and guide you on your next adventure. We are passionate about showcasing the world's most beautiful places and believe that travel has the power to broaden our horizons and enrich our lives. </b>Our carefully curated collection of destinations has been handpicked to ensure that each offers something unique and awe-inspiring. Whether you're a seasoned traveler or a novice explorer, we're here to help you plan your next journey and create unforgettable memories. From stunning natural wonders to cultural hotspots and hidden gems, we've got you covered. Join us on a journey of discovery as we share the beauty of the world, one destination at a time.</p>
+    </article>
+    <footer>
+        <div>© 2023 Joseph Dinh</div>
+        <button onclick="toggleCSS()">Switch Style</button>
+    </footer>
+   </body>
+</html>

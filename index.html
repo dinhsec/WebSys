@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Home</title>
+      <link id="csslink" href="style.css" rel="stylesheet">
+
+      <script>
+	    function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'style.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'style.css');
+          }
+      }
+      </script>
+   </head>
+   <body>
+    <header>Travel Website</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="whytravel.html">Why Travel</a>
+        <a href="aboutpage.html">About</a>
+    </nav>
+    <article>
+        <h1 id="articleTitle">Beautiful Places to Travel to in 2023</h1>
+        <div class="entryContainer">
+            <h2>Málaga, Spain</h2>
+            <img src="spain.png"/>
+            <small id="pictureCaption">Picture & Text From: Getty Images & WikiTravel.org</small>
+            <p>Málaga is a large city in the southern Spanish region of Andalucia and capital of the Málaga Province. The largest city on the Costa del Sol, Malaga has a typical Mediterranean climate and is also known as the birthplace of famous Spanish artist Pablo Picasso. The city offers beaches, hiking, architectural sites, art museums, excellent shopping and cuisine. While more laid back than Madrid or Barcelona, Malaga is still the center and transport hub for the hugely popular Costa del Sol region, which is flooded with tourists in the summer, and the city has certainly cashed in on the sun and sand, with lots of new construction as well as hotels and facilities geared to tourists. However, Malaga also offers some genuinely interesting historical and cultural attractions in its old city and its setting on the coast is still beautiful.</p>
+            <p>Things to do in Málaga, Spain: <a target="_blank" href="https://www.hotels.com/go/spain/best-things-to-do-malaga">https://www.hotels.com/go/spain/best-things-to-do-malaga</a></p>
+        </div>
+
+        <div class="entryContainer">
+            <h2>Kyoto, Japan</h2>
+            <img src="japan.png"/>
+            <small id="pictureCaption">Picture & Text From: Departures.com & Neverendingvoyage.com</small>
+            <p>If you only have time for one Japan destination, make it Kyoto. This is traditional Japan as you imagined it—geisha in brightly coloured kimonos emerging from wooden teahouses, forests of bamboo, temples and shrines in gold and silver and scarlet, raked gravel Zen gardens, intricate feasts served on lacquered plates, graceful tea ceremonies, and markets full of intriguing but unidentifiable ingredients.</p>
+            <p>In Kyto don't miss:</p>
+            <ul>
+                <li>Wandering through the red torii gates of Fushimi Inari shrine.</li>
+                <li>Getting your fortune from a vending machine at Kinkaku-ji (the Golden Temple).</li>
+                <li>Taking the train to the village of Kibune and walking across the valley to the beautiful Kurama-dera temple.</li>
+                <li>Retreating from the busy streets of Gion to the magical Yasaka-jinja at night.</li>
+             </ul>
+             <p>Learn more about Japan: <a target="_blank" href="https://www.neverendingvoyage.com/best-places-to-visit-in-japan/">https://www.neverendingvoyage.com/best-places-to-visit-in-japan/</a></p>
+        </div>
+
+        <div class="entryContainer">
+            <h2>Singapore</h2>
+            <img src="singapore.png"/>
+            <small id="pictureCaption">Picture & Text From: Getty Images & NationalGeographic</small>
+            <p>Nowhere else in the world is quite like Singapore. Located at the southernmost tip of the Malay Peninsula, the tiny (slightly smaller than New York City) island is a towering city-state of superlatives. The world's tallest (115 feet) indoor waterfall, largest orchid garden (60,000 blooming plants), and first nocturnal zoo are Singapore originals, as are unlimited opportunities for one-of-a-kind experiences. Whether you're craving new flavor sensations or seeking new frontiers, here are three reasons why Singapore is the ideal launching pad for your next great travel adventure.</p>
+            <p>Learn more about Singapore: <a target="_blank" href="https://www.nationalgeographic.com/travel/article/sponsor-content-three-reasons-why-its-time-explore-singapore">https://www.nationalgeographic.com/travel/article/sponsor-content-three-reasons-why-its-time-explore-singapore</a></p>
+        </div>
+
+        <div class="entryContainer">
+            <h2>Rome, Italy</h2>
+            <img src="italy.png"/>
+            <small id="pictureCaption">Picture & Text From: Getty Images & RomeSite.com</small>
+            <p>Rome (or Roma in Italian) is the capital of Italy and has a population of 2.8 million, the Romans. According to legend, Rome city was founded by the twins Romulus and Remus in 753 BCE. The city is located on the banks of the river Tiber and was founded on top of seven hills; Palatine Hill, Aventine Hill, Capitoline Hill, Caelian Hill, Esquiline Hill, Quirinal Hill and Viminal Hill. Particularly the area around Palatine Hill and Capitoline Hill would later become the centre of power of the enormous Roman Empire. You can find many ruins and excavations here of the Forum Romanum and the Colosseum gives you an impression of how gladiators had to do battle in this enormous Roman amphitheatre. The Pantheon, which is now a church, has its characteristic round, open roof and is one of the best kept buildings from Roman times. And the Via Appia takes you back in time along one of the oldest roads of Rome Italy. Basically, the city of Rome is one giant museum. It is therefore no surprise that the complete historic city centre is on the UNESCO World Heritage List.</p>
+            <p>Learn about the history of Rome: <a target="_blank" href="https://romesite.com/">https://romesite.com/</a></p>
+        </div>
+
+        <div class="entryContainer">
+            <h2>Seoul, Korea</h2>
+            <img src="seoul.png"/>
+            <small id="pictureCaption">Picture & Text From: TripAdvisor</small>
+            <p>From modern skyscrapers and neon lights to Buddhist temples, palaces and pagodas, Seoul is a fascinating mix of old and new. Take it all in from the N Seoul Tower, built atop a peak in Namsan Park. The teahouses and shops of Insadong give you a taste of Korean flavor, which you can further experience with a visit to the grounds and museums of Gyeongbokgung. UNESCO World Heritage Site Changdeokgung Palace is a fine example of authentic ancient architecture.</p>
+            <p>Things to do in Seoul: <a target="_blank" href="https://www.tripadvisor.com/Tourism-g294197-Seoul-Vacations.html">https://www.tripadvisor.com/Tourism-g294197-Seoul-Vacations.html</a></p>
+        </div>
+    </article>
+    <footer>
+        <div>© 2023 Joseph Dinh</div>
+        <button onclick="toggleCSS()">Switch Style</button>
+    </footer>
+   </body>
+</html>

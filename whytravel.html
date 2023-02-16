@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Why</title>
+      <link id="csslink" href="style.css" rel="stylesheet">
+
+      <script>
+	    function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'style.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'style.css');
+          }
+      }
+      </script>
+   </head>
+   <body>
+    <header>Travel Website</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="whytravel.html">Why Travel</a>
+        <a href="aboutpage.html">About</a>
+    </nav>
+    <article>
+        <h1 id="articleTitle">Why Should You Travel?</h1>
+        <p id="whySummary">Travel should be meaningful. It should excite and inspire you, rejuvenate and ground you, educate and challenge you, and most of all, it should humble you.Travel gives us our greatest stories, our most cherished memories and countless irreplaceable learnings that we can choose to pay forward to others. It teaches us about ourselves and each other, it broadens our horizons and, just like a reset button, it forces us to refocus on what really matters. <b><em>-Claire Trickett</em></b></p>
+        <table>
+            <caption>Reasons to Travel</caption>
+            <tr>
+               <td>To challenge themselves</td>
+               <td>If you're feeling stuck in your daily routine and life has started becoming more mechanical than magical, you are probably craving for new experiences and challenges. Traveling is one of the best ways to test and push yourself out of your comfort zone. You'll realize how resourceful you can be in a new environment. Overcoming challenges will not only boost your energy but also make you happy in the end.</td>
+            </tr>
+            <tr>
+               <td>To learn new things</td>
+               <td>Learning is one of the major motivators of traveling. Experiencing something unfamiliar will make you knowledgeable and improve your skills. Seeing the world is much more than attending a geography class. Every new destination will have a unique learning experience. You'll get to experience new cultures, learn new things and meet new people. And all this will add to your insights.</td>
+            </tr>
+            <tr>
+               <td>To understand yourself</td>
+               <td>Changing your daily routine by spicing things up will give you the chance to think and reflect on your life. As you travel, you'll have all the time and space to let your mind wander. As you learn more about the world, you'll end up learning more about yourself. Knowing yourself will greatly improve the quality of your life.</td>
+            </tr>
+            <tr>
+               <td>Having an adventure</td>
+               <td>Conquering a new territory is just exciting. Most people travel to have an adventure. We all crave for new experiences. And traveling offers exactly what we need. Tasting new food, hiking, and camping in the mountains or scuba diving will spice up your life. When you return home, you'll be happy.</td>
+            </tr>
+            <tr>
+                <td>Escaping</td>
+                <td>People travel to escape a bad breakup, demanding job or the loss of a loved one. Traveling is one of the best remedies for stress and unhappiness in life. You can also travel to get what you don't have at home. This could be the scenery, weather and the freedom to do what you want. If you are a workaholic, you should consider traveling.                </td>
+            </tr>
+            <tr>
+                <td>Building quality relationships</td>
+                <td>Traveling with other people will help you understand and bond with them. Deepening your friendships will greatly improve the quality of your life. Research shows that 80% of your happiness in life will be determined by the relationships you have in your life.                </td>
+            </tr>
+         </table>
+         <small>Text From: EcoBNB</small>
+    </article>
+    <footer>
+        <div>© 2023 Joseph Dinh</div>
+        <button onclick="toggleCSS()">Switch Style</button>
+    </footer>
+   </body>
+</html>
