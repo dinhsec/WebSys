@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Why</title>
+      <link id="csslink" href="style.css" rel="stylesheet">
+
+      <script>
+	    function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'style.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'style.css');
+          }
+      }
+      </script>
+   </head>
+   <body>
+    <header>Travel Website</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="whytravel.html">Why Travel</a>
+        <a href="aboutpage.html">About</a>
+        <a href="japan.html">Proj2</a>
+    </nav>
+    <article>
+
+    </article>
+   </body>
+</html>
